@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aspire Academy</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo"><span>ASPIRE</span> ACADEMY</div>
+        <nav>
+          <div class="hamburger" id="hamburger">&#9776;</div> <!-- Hamburger Icon -->
+          <ul id="nav-links">
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#features">FEATURES</a></li>
+            <li><a href="#faculty">FACULTY</a></li>
+            <li><a href="#courses">COURSES</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+
+            <li id="close-menu">
+                <a href="">&#10005;</a>
+            </li>
+          </ul>
+        </nav>
+    </header>
+      
+    <section class="hero" id="home">
+        <video autoplay loop muted playsinline class="hero-video">
+            <source src="course-video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+          <div class="hero-content">
+            <p class="tagline">ASPIRING FUTURE LEADERS</p>
+            <h1>Fostering Excellence, Building Leaders</h1>
+            <a href="#features" class="btn">KNOW MORE</a>
+          </div>
+    </section>
+
+    <section class="features" id="features">
+        <div class="section-header">
+          <span>FEATURES</span>
+        </div>
+        <div class="feature-cards">
+          <div class="card">
+            <img src="choose-us-image-01.png" alt="Quality Education">
+            <h3>Quality Education</h3>
+            <p>Our curriculum is designed to deliver top-tier education with a focus on real-world skills and knowledge.</p>
+          </div>
+          <div class="card">
+            <img src="choose-us-image-02.png" alt="Systematic Approach">
+            <h3>Systematic Approach</h3>
+            <p>With a structured approach, we ensure progressive and productive learning for every student.</p>
+          </div>
+          <div class="card">
+            <img src="choose-us-image-03.png" alt="One to One Study">
+            <h3>One to One Study</h3>
+            <p>Personalized one-on-one study sessions provide individual attention to every student.</p>
+          </div>
+        </div>
+    </section>
+
+    <section class="faculty" id="faculty">
+        <div class="section-header">
+          <span>FACULTY</span>
+        </div>
+        <div class="faculty-cards">
+          <div class="faculty-member">
+            <div class="image-wrapper">
+              <img src="john doe.png" alt="John Doe">
+            </div>
+            <h3>John Doe</h3>
+            <p class="position">President</p>
+            <p>Dedicated leader with 20+ years of experience, focused on fostering excellence, equity, and innovation in education.</p>
+          </div>
+          <div class="faculty-member">
+            <div class="image-wrapper">
+              <img src="mark philips.png" alt="Mark Philips">
+            </div>
+            <h3>Mark Philips</h3>
+            <p class="position">Executive Director</p>
+            <p>Strategic innovator creating enriching opportunities and driving curriculum development for impactful learning experiences.</p>
+          </div>
+          <div class="faculty-member">
+            <div class="image-wrapper">
+              <img src="Luke cody.png" alt="Luke Cody">
+            </div>
+            <h3>Luke Cody</h3>
+            <p class="position">Head Educator</p>
+            <p>Passionate educator leading transformative teaching approaches and fostering lifelong learning in every student.</p>
+          </div>
+        </div>
+    </section>
+    
+    <section class="courses" id="courses">
+        <div class="section-header">
+            <span>COURSES</span>
+        </div>
+        <div class="course-content">
+          <img src="Piereson-Riley_resized_22568d323dc8e2bdda7a465de761871c0b90b85f.jpg" alt="Campus">
+          <div class="course-details">
+            <ul>
+              <li> <span class="numbers">20+ </span>ENGINEERING COURSES</li>
+              <li> <span class="numbers">30+ </span>TECHNOLOGY COURSES</li>
+              <li> <span class="numbers">40+ </span>EDUCATION COURSES</li>
+              <li> <span class="numbers">35+ </span>BUSINESS COURSES</li>
+            </ul>
+            <div class="center-highlight">
+              <strong>200+ Centers</strong>
+            </div>
+          </div>
+        </div>
+    </section>
+    
+    <section class="contact" id="contact">
+        <div class="section-header">
+          <span>CONTACT US</span>
+        </div>
+        <div class="contact-content">
+          <form>
+            <input type="text" placeholder="Your Name">
+            <input type="email" placeholder="Your Email">
+            <textarea placeholder="Your message..."></textarea>
+            <button class="submit" type="submit">Send Message</button>
+          </form>
+          <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=..." width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+    </section>
+
+    <footer>
+      <p>&copy; All Rights Reserved | Designed by <strong>Jeremy Orozco</strong></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
